@@ -1,0 +1,126 @@
+.black-nav {
+	background: black;
+	min-height: 50px;
+	border-bottom: 5px solid yellow;
+	text-align: right;
+	font-size: 18px;
+	color: white;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-family: 'Merriweather', serif;
+
+}
+
+.main-nav {
+	float: right;
+}
+
+.link {
+	color: white;
+	margin: 10px;
+	text-decoration: none;
+	font-family: 'Oswald', sans-serif;
+
+}
+
+.brand {
+	color: yellow;
+	float: left;
+	margin: 0;
+	font-size: 22px;
+}
+
+.grey-subheader {
+	background: #c6c6c6;
+	min-height: 50px;
+	font-style: italic;
+	font-size: 25px;
+	text-align: center;
+	padding: 20px;
+
+}
+
+.lightbox {
+	padding: 25px;
+	margin: 50px;
+	float: right;
+	border: 1px solid black;
+	max-width: 200px;
+	min-width: 100px;
+	background: white;
+	opacity: 0.8;
+}
+
+.hero {
+	background: url("../images/coworking.jpg") no-repeat center center; 
+  	background-size: cover;
+}
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+	
+/*
+
+.cta-wrapper {
+	background-color: white;
+	border: 1px solid black;
+	float: left;
+}
+
+.cta {
+height: 340px;
+max-width: 30.33%;
+padding: 10px;
+box-sizing:border-box;
+}
+
+/*
+
+footer {
+	background: black;
+	font: white;
+	font-weight: bold;
+
+}*/
+
+.yellow-button {
+background: yellow;
+font-family: 'Oswald', sans-serif;
+}	
+
+.gray-button {
+background: gray;
+font-family: 'Oswald', sans-serif;	
+}
+
+.strike {
+	text-decoration: line-through;
+
+}
+
+.underline {
+	border-bottom: 3px solid yellow;
+}
+
+button {
+background: yellow;
+font-weight: bold;
+font-size: 20px;
+margin-top: 10px;
+margin-left:20px;
+}
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
