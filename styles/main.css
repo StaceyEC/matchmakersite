@@ -1,12 +1,17 @@
+body {
+	letter-spacing: 1.5px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
 .black-nav {
 	background: black;
-	min-height: 60px;
 	border-bottom: 5px solid yellow;
 	text-align: right;
 	font-size: 18px;
 	color: white;
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-top:15px;
+	padding-bottom: 15px;
+
 }
 
 .main-nav {
@@ -15,21 +20,32 @@
 
 .link {
 	color: white;
+	margin: 10px;
+	text-decoration: none;
+	font-family: 'Oswald', sans-serif;
+
 }
 
 .brand {
 	color: yellow;
 	float: left;
 	margin: 0;
+	font-size: 22px;
+	text-decoration: none; 
+	font-family: 'Merriweather', serif;
 }
+
+/* I wanted to make the brand name an h1 but there were webkit 
+stlyes that overrode how I wanted it to look, :( */
 
 .grey-subheader {
 	background: #c6c6c6;
+	font-family: 'Merriweather', serif;
 	min-height: 50px;
 	font-style: italic;
-	font-size: 25px;
+	font-size: 18px;
 	text-align: center;
-	padding: 30px;
+	padding-top: 20px;
 
 }
 
@@ -38,55 +54,97 @@
 	margin: 50px;
 	float: right;
 	border: 1px solid black;
-	max-width: 200px;
+	max-width: 300px;
+	min-width: 100px;
 	background: white;
-	opacity: 0.6;
+	opacity: 0.8;
 }
 
 .hero {
 	background: url("../images/coworking.jpg") no-repeat center center; 
   	background-size: cover;
 }
-	
-/*
-
-.cta-wrapper {
-	background-color: white;
-	border: 1px solid black;
-	float: left;
-}
-
-.cta {
-height: 340px;
-max-width: 30.33%;
-padding: 10px;
-box-sizing:border-box;
-}
-
-/*
 
 footer {
 	background: black;
-	font: white;
+	color: white;
 	font-weight: bold;
+    min-height: 30px;
+    padding: 15px;
+}
 
-}*/
+/*
+.bottom-bitch {
+position: absolute;
+ 	bottom: 0; 
+ 	margin:0%;
+}
 
-.yellow {
-background: yellow;
+didn't need this anymore and couldn't figure out positionings
+*/
+
+.white-body {
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+.body-cta {
+	float: left;
+	border-left: 0.5px solid #c6c6c6;
+	width: 33.33%;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 30px;
+	box-sizing: border-box;
+}
+
+.body-cta-wo {
+	float: left;
+	width: 33.33%;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 30px;
+	box-sizing: border-box;
+}
+
+.yellow-button {
+	background: yellow;
+	font-family: 'Oswald', sans-serif;
 }	
 
-.gray {
-background: gray;	
+.gray-button {
+	background: #c6c6c6;
+	font-family: 'Oswald', sans-serif;	
+}
+
+.strike {
+	text-decoration: line-through;
+	color: gray;
+
+}
+
+.underline {
+	border-bottom: 3px solid yellow;
 }
 
 button {
-background: yellow;
-font-weight: bold;
-font-size: 20px;
-margin-top: 10px;
-margin-left:20px;
+	font-weight: bold;
+	font-size: 16px;
+	margin-top: 20px;
+	padding: 5px;
+	border-radius: 5px;
+	display: block;
+	width: 100%;
+	letter-spacing: 2px;
 }
+
+/* #grey-out {
+	background-color: gray;
+	padding: 14px;
+
+	can't figure this one out.
+}
+*/
 
 .clearfix:after {
      visibility: hidden;
