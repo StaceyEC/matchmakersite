@@ -138,6 +138,14 @@ button {
 	letter-spacing: 2px;
 }
 
+/* #grey-out {
+	background-color: gray;
+	padding: 14px;
+
+	can't figure this one out.
+}
+*/
+
 .clearfix:after {
      visibility: hidden;
      display: block;
