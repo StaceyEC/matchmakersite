@@ -1,0 +1,218 @@
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 20px;
+}
+
+.black-nav {
+	background: black;
+	border-bottom: 5px solid yellow;
+	text-align: right;
+	font-size: 18px;
+	color: white;
+	padding-top:15px;
+	padding-bottom: 15px;
+	margin: 0;
+
+}
+
+.main-nav {
+	float: right;
+}
+
+.link {
+	color: white;
+	margin: 10px;
+	text-decoration: none;
+	font-family: 'Oswald', sans-serif;
+
+}
+
+.brand {
+	color: yellow;
+	float: left;
+	margin: 0;
+	font-size: 22px;
+	text-decoration: none; 
+	font-family: 'Merriweather', serif;
+}
+
+/* I wanted to make the brand name an h1 but there were webkit 
+stlyes that overrode how I wanted it to look, :( */
+
+.grey-subheader {
+	background: #c6c6c6;
+	font-family: 'Merriweather', serif;
+	min-height: 50px;
+	font-style: italic;
+	font-size: 18px;
+	text-align: center;
+	padding-top: 20px;
+
+}
+
+.lightbox {
+	padding: 25px;
+	margin: 50px;
+	float: right;
+	border: 1px solid black;
+	max-width: 350px;
+	min-width: 100px;
+  	background: rgba(255, 255, 255, 0.8); 
+  }
+
+.hero {
+	background: url("../images/coworking.jpg") no-repeat center center; 
+  	background-size: cover;
+}
+
+footer {
+	background: black;
+	color: white;
+	font-weight: bold;
+    min-height: 30px;
+    padding: 15px;
+}
+
+.wrapper {
+	margin: 0px auto;
+	max-width: 1200px;
+}
+
+
+.white-body {
+	padding: 20px;
+	background: white;
+	box-sizing: border-box;
+}
+
+.body-cta {
+	float: left;
+	font-size: ;
+	border-left: 0.5px solid #c6c6c6;
+	width: 33.33%;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 30px;
+	box-sizing: border-box;
+}
+
+.body-cta-wo {
+	float: left;
+	width: 33.33%;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 30px;
+	box-sizing: border-box;
+}
+
+.yellow-button {
+	background: yellow;
+	font-family: 'Oswald', sans-serif;
+	opacity: 1.0;
+
+}	
+
+.gray-button {
+	background: #c6c6c6;
+	font-family: 'Oswald', sans-serif;	
+}
+
+.strike {
+	text-decoration: line-through;
+	color: gray;
+
+}
+
+.underline {
+	border-bottom: 3px solid yellow;
+}
+
+.main-button {
+	font-weight: bold;
+	font-size: 16px;
+	margin-top: 20px;
+	padding: 5px;
+	border-radius: 5px;
+	display: block;
+	width: 100%;
+	letter-spacing: 2px;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	letter-spacing: 4px;
+}
+
+h2 {
+	font-weight: bold;
+	font-size:35px;
+	margin-top:20px;
+	margin-bottom: 0;
+
+}
+
+
+h3 {
+	font-family: 'Merriweather', serif;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.internal {
+	background: #c6c6c6;
+}
+
+.profile-pic {
+	max-width: 100%;
+}
+
+.profile-body {
+	background: white;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+/*#grey-out {
+	background: #666666;
+}
+Could not get the style over the nav to work
+
+*/
+.some-person {
+	float: left;
+	min-height: 230px;
+	max-height: 365px;
+	width: 22%;
+	border-style: solid;
+	border-color: white;
+	border-width: 5px 5px 5px 5px;
+	margin: 10px;
+	box-sizing: border-box;
+
+
+}
+
+.skill-card {
+	background: #666666;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 15px;	
+	color:white;
+	border-radius: 10px;
+	border: 0px;
+}
+
+
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
