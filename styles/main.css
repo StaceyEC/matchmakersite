@@ -1,6 +1,6 @@
 body {
-	letter-spacing: 1.5px;
 	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 20px;
 }
 
 .black-nav {
@@ -11,6 +11,7 @@ body {
 	color: white;
 	padding-top:15px;
 	padding-bottom: 15px;
+	margin: 0;
 
 }
 
@@ -54,11 +55,10 @@ stlyes that overrode how I wanted it to look, :( */
 	margin: 50px;
 	float: right;
 	border: 1px solid black;
-	max-width: 300px;
+	max-width: 350px;
 	min-width: 100px;
-	background: white;
-	opacity: 0.8;
-}
+  	background: rgba(255, 255, 255, 0.8); 
+  }
 
 .hero {
 	background: url("../images/coworking.jpg") no-repeat center center; 
@@ -85,11 +85,13 @@ didn't need this anymore and couldn't figure out positionings
 
 .white-body {
 	padding: 20px;
+	background: white;
 	box-sizing: border-box;
 }
 
 .body-cta {
 	float: left;
+	font-size: ;
 	border-left: 0.5px solid #c6c6c6;
 	width: 33.33%;
 	padding-left: 10px;
@@ -110,6 +112,7 @@ didn't need this anymore and couldn't figure out positionings
 .yellow-button {
 	background: yellow;
 	font-family: 'Oswald', sans-serif;
+	opacity: 1.0;
 }	
 
 .gray-button {
@@ -127,7 +130,7 @@ didn't need this anymore and couldn't figure out positionings
 	border-bottom: 3px solid yellow;
 }
 
-button {
+.main-button {
 	font-weight: bold;
 	font-size: 16px;
 	margin-top: 20px;
@@ -136,15 +139,66 @@ button {
 	display: block;
 	width: 100%;
 	letter-spacing: 2px;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	letter-spacing: 4px;
 }
 
-/* #grey-out {
-	background-color: gray;
-	padding: 14px;
+h2 {
+	font-weight: bold;
+	font-size:35px;
+	margin-top:20px;
+	margin-bottom: 0;
 
-	can't figure this one out.
 }
-*/
+
+
+h3 {
+	font-family: 'Merriweather', serif;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.internal {
+	background: #c6c6c6;
+}
+
+.profile-pic {
+	max-width: 100%;
+}
+
+.profile-body {
+	background: white;
+	margin: 0px;
+	box-sizing: border-box;
+
+
+}
+
+
+.some-person {
+	float: left;
+	min-height: 230px;
+	max-height: 365px;
+	width: 20%;
+	border-style: solid;
+	border-color: white;
+	border-width: 5px 5px 5px 5px;
+	margin: 10px;
+	box-sizing: border-box;
+
+
+}
+
+.skill-card {
+	background: #666666;
+	font-family: 'Source Sans Pro', sans-serif;	
+	color:white;
+	border-radius: 10px;
+}
+
+
 
 .clearfix:after {
      visibility: hidden;
@@ -154,6 +208,7 @@ button {
      clear: both;
      height: 0;
      }
+
 .clearfix { display: inline-block; }
 /* start commented backslash hack \*/
 * html .clearfix { height: 1%; }
