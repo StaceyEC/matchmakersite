@@ -174,10 +174,12 @@ h3 {
 	box-sizing: border-box;
 }
 
-#grey-out {
+/*#grey-out {
 	background: #666666;
 }
+Could not get the style over the nav to work
 
+*/
 .some-person {
 	float: left;
 	min-height: 230px;
